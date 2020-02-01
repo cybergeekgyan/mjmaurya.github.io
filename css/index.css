@@ -1,22 +1,47 @@
 body{
 	margin: 0px;
 	padding: 0px;
-	background-color: #990099;
+}
+#front{
+	background-image:url(../images/back.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+.navbar{
+	background-color: black;
+	width: 100%;
 }
 .navbar-nav li a:hovor{
 background-color: blue
 }
-
-
+.intro-social{
+	margin-top: 70px;
+	display:inline-flex;
+}
+.intro-social li{
+	list-style: none;
+	margin: 10px;
+}
+.intro-social li i{
+	color: cornsilk;
+	size: 2vw;
+}
+.intro-social li i:hover{
+	color: brown;
+}
 
 
 .screen{
-	height: 500px;
-	background-color: black;
+	padding-top: 150px;
+	text-align: center;
 }
-.screen-pro
-{
-	padding-top:100px ; 
+#about{
+	text-align: center;
+	background-color: black;
+	padding-top: 70px;
+	padding-bottom: 70px;
 }
 .img-circle{
 	border: solid 5px black;
@@ -31,7 +56,12 @@ background-color: blue
 }
 .skills
 {
-	background-color:#008ae6;
+	background-attachment: fixed;
+	background-color: black;
+	text-align: center;
+	background-size: cover;
+	color: white;
+	padding: 50px;
 }
 .img-skill
 {
@@ -51,22 +81,38 @@ background-color: blue
 
 /* education style*/
 
+.education
+{
+	color: blanchedalmond;
+	text-align: center;
+	background-color: darkblue;
+	padding-top: 70px;
+	padding-bottom: 70px;
+}
+
 /*footer profile*/
 .project{
-	background-color: #fff;
+	background-image:url(../images/back1.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+	text-align: center;
+	color: blanchedalmond;
+	padding-bottom: 70px;
 }
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   max-width: 300px;
   margin: auto;
+  background-color: black;
   margin-top: 10px;
   text-align: center;
   font-family: arial;
 }
 
-.title {
-  color: grey;
-  font-size: 18px;
+.card-title {
+  color: rgb(180, 14, 3);
+  font-size: 24px;
+  font-style: bold;
 }
 
 a {
